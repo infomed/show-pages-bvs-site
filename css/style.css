@@ -1,0 +1,99 @@
+/* begin Footer */
+.art-footer
+{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-image: url('../images/footer.gif');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #747B8E;
+  height: 90px;
+  color: #FFFFFF;
+  font-size: 10px;
+  font-family: Arial, Verdana, Helvetica;
+}
+
+
+.art-footer-t
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.art-footer-body
+{
+  position:relative;
+}
+
+.art-footer-text p
+{
+  padding-top: 20px;
+  padding-left: 10px;
+  margin:0;
+}
+
+.art-footer-text
+{
+  height: 90px;
+  padding-left: 135px;
+  background-image: url('../images/seal.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-right: 10px;
+}
+
+.art-footer,
+.art-footer-text,
+.art-footer p
+{
+  text-align: left;
+}
+
+.content
+{
+    margin: auto;
+    cursor: auto;
+    margin-bottom: -1px !important;
+    max-width: 920px;
+    min-width: 760px;
+    top: -1px !important;
+    border-left:  1px solid #A3AEC4;
+    border-right:  1px solid #A3AEC4;
+}
+
+h3.storytitle a:hover, h3.storytitle a:visited, h3.storytitle a:link
+{
+    color: #FFFFFF;
+    font-size: 11px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 10px 0 5px;
+    white-space: nowrap;
+}
+
+.storytitle
+{
+    background-color: #68768D;
+    height: 23px; 
+}
+
+.childPages
+{
+    margin-left: 50px;
+}
+
+.childPages ul li
+{
+    list-style-type: disc;
+}
+
+/* end Footer */
